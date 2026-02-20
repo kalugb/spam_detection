@@ -1,6 +1,4 @@
 import torch
-import torch.nn.functional as F
-from torch.utils.data import DataLoader, TensorDataset
 
 import numpy as np
 import pandas as pd
@@ -10,8 +8,6 @@ working_path = os.path.dirname(os.path.abspath(__file__))
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from collections import Counter
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import classification_report, confusion_matrix
 
 from joblib import load
