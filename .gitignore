@@ -6,3 +6,11 @@
 .vscode/
 
 pth_files/
+
+*.joblib
+
+*.ps1
+
+*.pyc
+
+__pycache__/
